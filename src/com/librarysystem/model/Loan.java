@@ -1,6 +1,8 @@
+package com.librarysystem.model;
+
 import java.util.Date;
 
-class Loan {
+public class Loan {
     private User user;
     private Book book;
     private Date loanDate;

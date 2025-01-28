@@ -1,4 +1,6 @@
-class Invoice {
+package com.librarysystem.model;
+
+public class Invoice {
     private User user;
     private Book book;
     private double amount;

@@ -1,4 +1,6 @@
-class Book {
+package com.librarysystem.model;
+
+public class Book {
     private String id;
     private String title;
     private Author author;
@@ -20,9 +22,5 @@ class Book {
     public Category getCategory() { return category; }
     public boolean isAvailable() { return isAvailable; }
     public void setAvailable(boolean available) { isAvailable = available; }
-
-    // setTitle metodu eklendi
-    public void setTitle(String title) {
-        this.title = title;
-    }
+    public void setTitle(String title) { this.title = title; }
 }

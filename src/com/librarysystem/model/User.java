@@ -1,7 +1,9 @@
+package com.librarysystem.model;
+
 import java.util.HashSet;
 import java.util.Set;
 
-class User {
+public class User {
     private String id;
     private String name;
     private Set<Book> borrowedBooks;

@@ -1,4 +1,6 @@
-class Category {
+package com.librarysystem.model;
+
+public class Category {
     private String name;
 
     public Category(String name) {
